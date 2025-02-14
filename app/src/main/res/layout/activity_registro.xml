@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".view.RegistroActivity">
+
+    <TextView
+        android:id="@+id/tv_crear_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alice"
+        android:text="@string/tv_registro_text"
+        android:textColor="@color/dark_purple"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_registro_username"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/et_registro_username_hint_text"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_crear_cuenta" />
+
+    <EditText
+        android:id="@+id/et_registro_pwd"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/et_registro_hint_text"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/et_registro_username"
+        app:layout_constraintStart_toStartOf="@+id/et_registro_username"
+        app:layout_constraintTop_toBottomOf="@+id/et_registro_username" />
+
+    <EditText
+        android:id="@+id/et_registro_confirm_pwd"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/et_registro_confirm_pwd_hint_text"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/et_registro_pwd"
+        app:layout_constraintStart_toStartOf="@+id/et_registro_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/et_registro_pwd" />
+
+    <Button
+        android:id="@+id/btn_crear_cuenta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/selective_yellow"
+        android:fontFamily="@font/alice"
+        android:text="@string/btn_crear_cuenta_text"
+        android:textColor="@color/dark_purple"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/et_registro_confirm_pwd"
+        app:layout_constraintStart_toStartOf="@+id/et_registro_confirm_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/et_registro_confirm_pwd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

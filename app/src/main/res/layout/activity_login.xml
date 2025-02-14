@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".view.LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alice"
+        android:text="@string/tv_login_text"
+        android:textColor="@color/dark_purple"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/et_login_username_hint_text"
+        android:includeFontPadding="false"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login" />
+
+    <EditText
+        android:id="@+id/et_login_pwd"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:hint="@string/et_login_pwd_hint_text"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/et_login_username"
+        app:layout_constraintStart_toStartOf="@+id/et_login_username"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_username" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/selective_yellow"
+        android:fontFamily="@font/alice"
+        android:text="@string/btn_login_text"
+        android:textColor="@color/dark_purple"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/et_login_pwd"
+        app:layout_constraintStart_toStartOf="@+id/et_login_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_pwd" />
+
+    <Button
+        android:id="@+id/btn_login_create_account"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/dark_purple"
+        android:fontFamily="@font/alice"
+        android:text="@string/btn_login_create_account_text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_login"
+        app:layout_constraintStart_toStartOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

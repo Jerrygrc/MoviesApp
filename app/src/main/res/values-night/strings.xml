@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_login_text">Login</string>
+    <string name="et_login_username_hint_text">Nombre de usuario</string>
+    <string name="et_login_pwd_hint_text">Contraseña</string>
+    <string name="btn_login_text">Acceder</string>
+    <string name="btn_login_create_account_text">Crear cuenta</string>
+    <string name="tv_registro_text">Crear Cuenta</string>
+    <string name="et_registro_username_hint_text">Nombre de usuario</string>
+    <string name="et_registro_hint_text">Contraseña</string>
+    <string name="et_registro_confirm_pwd_hint_text">Confirmar contraseña</string>
+    <string name="btn_crear_cuenta_text">Crear cuenta</string>
+    <string name="tv_movie_title">Título Película</string>
+    <string name="tv_original_title_text">Título Original</string>
+    <string name="tv_original_title_display_text">Movie Title</string>
+    <string name="tv_sinopsis_title_text">Sinopsis</string>
+    <string name="tv_estreno_text">"Estreno: "</string>
+    <string name="tv_relase_date_text">2024-11-05</string>
+    <string name="tv_valoracion_text">"Valoración del público: "</string>
+    <string name="tv_valoracioon_text">6.7</string>
+    <string name="tv_estrella_content_description_text">boton favoritos</string>
+    <string name="tv_movie_title_text">Título de la película.</string>
+    <string name="tb_title_text">En cartelera</string>
+    <string name="favoritas">Favoritas</string>
+    <string name="en_cartelera">En Cartelera</string>
+    <string name="populares">Populares</string>
+    <string name="mejor_valoradas">Mejor Valoradas</string>
+    <string name="pr_ximamente">Próximamente</string>
+    <string name="sin_pelis_text">¡No hay películas! 😱</string>
+</resources>

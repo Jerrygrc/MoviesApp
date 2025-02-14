@@ -1,0 +1,28 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/action_favoritas"
+            android:icon="@drawable/ic_favoritas"
+            android:title="@string/favoritas"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_cartelera"
+            android:title="@string/en_cartelera"
+            android:icon="@drawable/ic_cartelera"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_populares"
+            android:title="@string/populares"
+            android:icon="@drawable/ic_populares"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_mejor_valoradas"
+            android:title="@string/mejor_valoradas"
+            android:icon="@drawable/ic_mejor_valoradas"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_proximamente"
+            android:title="@string/pr_ximamente"
+            android:icon="@drawable/ic_proximamente"
+            app:showAsAction="never" />
+</menu>
